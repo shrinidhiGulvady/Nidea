@@ -1,9 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 import useScreenSize from './useScreenSize';
+import useLocalStorage from './useLocalStorage';
 
 function App() {
   const {width,height}=useScreenSize();
+  const { }=useLocalStorage();
+
   return (
     <div className="App">
       <header className="App-header">
