@@ -4,8 +4,8 @@ import useScreenSize from './useScreenSize';
 import useLocalStorage from './useLocalStorage';
 
 function App() {
-  const {width,height}=useScreenSize();
-  const [ value, setValue]=useLocalStorage("Me", "Nidhi")
+  const [width,height]=useScreenSize();
+  const [value, setValue]=useLocalStorage("Me", "Nidhi")
 
   return (
     <div className="App">
@@ -15,7 +15,7 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
          {width} : {height}
-         {theme} : {value}
+          {value}
       </header>
       <button onClick={() => value === "Shri" ? setValue("Nidhi") : setValue("Shri")}>Toggle theme</button>
     </div>
@@ -25,6 +25,6 @@ function App() {
 export default App;
 
 // To DO 
-// 1. Why not { } ?
+// 1. Why not { } ? : We can as we want 
 // 2.for multiple storage , do we need ?
 // how does React useState works ?
