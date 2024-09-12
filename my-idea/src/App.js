@@ -1,13 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import useScreenSize from './useScreenSize';
+// import useScreenSize from './useScreenSize';
 import useLocalStorage from './useLocalStorage';
 
 function App() {
   // const [width,height]=useScreenSize();
   const [value, setValue]=useLocalStorage("Me", "Nidhi")
-  const [value1, setValue1]=useLocalStorage("You", "Shri")
-  const [value2, setValue2]=useLocalStorage("He", "Gulvady")
+  // const [value1, setValue1]=useLocalStorage("You", "Shri")
+  // const [value2, setValue2]=useLocalStorage("He", "Gulvady")
   // setValue2("great")
 
   return (
