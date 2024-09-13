@@ -30,3 +30,7 @@ export default App;
 // 2.for multiple storage , do we need ?
 // how does React useState works ?
 // how does this useLocaStorage will work 
+
+// things to do 
+// All the hooks in linkedin post 
+// port folio 
