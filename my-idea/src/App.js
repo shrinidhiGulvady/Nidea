@@ -35,3 +35,6 @@ export default App;
 // All the hooks in linkedin post 
 // port folio 
 // DSA 21 days 
+// high level design 
+// low level design 
+// perfomance resolve 
