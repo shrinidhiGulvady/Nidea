@@ -38,3 +38,4 @@ export default App;
 // high level design 
 // low level design 
 // perfomance resolve 
+// Architecture patterns
