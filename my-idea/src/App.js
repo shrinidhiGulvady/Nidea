@@ -39,3 +39,4 @@ export default App;
 // low level design 
 // perfomance resolve 
 // Architecture patterns
+// React concepts 
