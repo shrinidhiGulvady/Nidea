@@ -40,3 +40,4 @@ export default App;
 // perfomance resolve 
 // Architecture patterns
 // React concepts 
+// react built configuaration
