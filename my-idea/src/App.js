@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 // import useScreenSize from './useScreenSize';
 import useLocalStorage from './useLocalStorage';
+import Counter from './Counter';
 
 function App() {
   // const [width,height]=useScreenSize();
@@ -17,6 +18,9 @@ function App() {
         <p>
         Hello World 👋
         </p>
+
+      <Counter/>
+
       </header>
       <button onClick={() => value === "Shri" ? setValue("Nidhi") : setValue("Shri")}>Toggle theme</button>
     </div>
