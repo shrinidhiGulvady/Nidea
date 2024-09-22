@@ -4,9 +4,7 @@ const Counter=()=>{
 const [counter, setCounter]=useState(0)
 
 useEffect(()=>{
-
     myInterval()
-
 },[counter])
 
 const myInterval = ()=>{
