@@ -6,3 +6,9 @@ State : data can be change over a period of time
 UseSate : using the side effects 
 
 useMemo useReducer
+
+useCallback 
+
+useContext
+
+useRef
